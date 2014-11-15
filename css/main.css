@@ -94,6 +94,51 @@ textarea {
    ========================================================================== */
 
 
+/* 
+    Created on : 23-Oct-2014, 19:42:12
+    Author     : Gabri
+*/
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    background-image: url(../images/bgtile_blue.png);
+
+}
+
+.page_right {
+    display: none;
+    height: 100%;
+    width: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    outline: 1px solid yellowgreen;
+    background: rgba(255, 255, 100, 0.2);
+    cursor: pointer;
+}
+
+#front_page { 
+    background: no-repeat url(../img/background.jpg);
+    background-position-x: 50%;
+    background-size: 100%;
+    width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#front_page:after { 
+    padding-top: 139%;  /* 16:9 ratio */
+    display: block;
+    content: '';
+}
+
 
 
 
