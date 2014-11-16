@@ -1,23 +1,21 @@
 $(document).ready(function() {
     $.stratus({
-        links: 'https://soundcloud.com/foofighters/sets/wasting-light'
+        links: '//soundcloud.com/room1011/aphex-twins-pacman-powerpill'
     });
     
     $("#flipbook").turn({
         width: 1000,
         height: 707.5,
+        elevation: 50,
+        gradients: true,
         autoCenter: true,
-		// Elevation
-
-		elevation: 50,
-		
-		// Enable gradients
-
-		gradients: true,
-		
-		// Auto center this flipbook
-
-		autoCenter: true
+        acceleration: true,
+        display: "single"
+    });
+    
+    $('[data-toggle="tooltip"]').tooltip();
+    
+    $('#culture_article_1').click(function() {
     });
     
 });
