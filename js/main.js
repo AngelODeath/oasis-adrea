@@ -10,7 +10,7 @@ $(document).ready(function() {
         gradients: true,
         autoCenter: true,
         acceleration: true,
-        display: "single"
+        display: "double"
     });
     
     $('[data-toggle="tooltip"]').tooltip();
