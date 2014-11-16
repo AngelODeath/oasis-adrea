@@ -178,9 +178,18 @@ height:600px;
 	background-color: #FEFEFE;
 }
 
+.page .container {
+    margin: 2%;
+    width: 98%;
+}
+.page .container p {
+    font-size: 0.7em;
+}
 #img_beach {
     display: inline;
     float: left;
+    width: 37%;
+    margin: 2%;
 }
 
 #contents {
