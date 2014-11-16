@@ -102,41 +102,90 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-    padding: 0;
 }
 
 body { 
     font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-    background-image: url(../img/bgtile_blue.png);
-
+    /*background-image: url(../img/bgtile_blue.png);*/
+    background-color: #269abc;
+    padding: 5%;
 }
 
-#front_page_container { 
+#front_page { 
     background: no-repeat url(../img/background.jpg);
-    background-position-x: 50%;
     background-size: 100%;
-    width: 1000px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+}
+#front_page_inner {
+    background: no-repeat url(../img/Devil-Playing-Drums.gif);
+    background-size: 100%;
 }
 
-#front_page_container:after { 
-    padding-top: 139%;   //16:9 ratio 
+.container:after { 
     display: block;
     content: '';
 }
 
+footer {
+    font-size: 10px;
+}
 
+#left_foot {
+    float: left;
+    display: block;
+    width: 50%;
+}
+#lfll_header {
+    font-size: 2em;
+}
 
+#right_foot {
+    float: left;
+    display: block;
+    width: 50%;
+}
+#rfll_header {
+    font-size: 2em;
+}
 
+p#copyright {
+    font-size: 10px;
+    clear: both;
+}
 
+#flipbook {
+    
+}
 
+#flipbook .shadow{
+box-shadow:
+0 4px 10px #666;
+}
 
+#flipbook .page{
+width:400px;
+height:600px;
+}
 
+#heading {
+    font-size: 36px;
+    color: rosybrown;
+}
 
+.page_article p {
+	font-size: 14px;
+}
+.page {
+	background-color: #FEFEFE;
+}
 
+#img_beach {
+    display: inline;
+    float: left;
+}
 
+#contents {
+	backgroung-color: #D0ECBD;	
+}
 
 /* ==========================================================================
    Helper classes
@@ -245,7 +294,7 @@ body {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width:35em){
     /* Style adjustments for viewports that meet the condition */
 }
 
