@@ -4,9 +4,20 @@ $(document).ready(function() {
     });
     
     $("#flipbook").turn({
-        width: 1500,
-        height: 1060.5,
-        autoCenter: true
+        width: 1000,
+        height: 707.5,
+        autoCenter: true,
+		// Elevation
+
+		elevation: 50,
+		
+		// Enable gradients
+
+		gradients: true,
+		
+		// Auto center this flipbook
+
+		autoCenter: true
     });
     
 });
