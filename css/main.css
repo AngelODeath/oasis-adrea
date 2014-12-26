@@ -111,19 +111,61 @@ body {
     padding: 5%;
 }
 
-#front_page { 
+.homepage {
+    
     background: no-repeat url(../img/background.jpg);
     background-size: 100%;
+    
+    height: 0;
+    padding-top: 145%; /* (img-height / img-width * width) */
+                /* (853 / 1280 * 100) */
+    
+    box-shadow:
+    0 4px 10px #666;
+    
 }
+.homepage .container {
+    position: absolute;
+    top: 100px;
+    
+}
+
+.homepage #heading {
+    font-size: 36px;
+    color: rosybrown;
+}
+
 #front_page_inner {
     background: no-repeat url(../img/Devil-Playing-Drums.gif);
     background-size: 100%;
 }
 
+
 .container:after { 
     display: block;
     content: '';
 }
+
+.page_article p {
+	font-size: 14px;
+}
+.page {
+	background-color: #FEFEFE;
+    display: none;
+    
+    box-shadow:
+    0 4px 10px #666;
+}
+
+#img_beach {
+    display: inline;
+    float: left;
+}
+
+#contents {
+	background-color: #D0ECBD;	
+}
+
 
 footer {
     font-size: 10px;
@@ -152,40 +194,6 @@ p#copyright {
     clear: both;
 }
 
-#flipbook {
-    
-}
-
-#flipbook .shadow{
-box-shadow:
-0 4px 10px #666;
-}
-
-#flipbook .page{
-width:400px;
-height:600px;
-}
-
-#heading {
-    font-size: 36px;
-    color: rosybrown;
-}
-
-.page_article p {
-	font-size: 14px;
-}
-.page {
-	background-color: #FEFEFE;
-}
-
-#img_beach {
-    display: inline;
-    float: left;
-}
-
-#contents {
-	backgroung-color: #D0ECBD;	
-}
 
 /* ==========================================================================
    Helper classes
