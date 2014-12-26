@@ -39,18 +39,13 @@ $(document).ready(function() {
         display: "double"
     });
 
->>>>>>> 6b39322fbad5fe3918fced9f73deb4f41bd386b2
     $('[data-toggle="tooltip"]').tooltip();
 
     $('#culture_article_1').click(function() {
-<<<<<<< HEAD
         console.log('click');
     });
     
     var x = new pager(flipbook);
-=======
-        $('#flipbook').turn('page', '3');
-    });
 
     $('.flip-container').bind('touchstart', function() {
         $(this).addClass('hover');
@@ -58,5 +53,4 @@ $(document).ready(function() {
         $(this).removeClass('hover');
     });
 
->>>>>>> 6b39322fbad5fe3918fced9f73deb4f41bd386b2
 });
