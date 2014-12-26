@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    
     function pager(pager_div) {
         console.log(pager_div);
         $(pager_div).children('div').each(function() {
@@ -24,26 +23,40 @@ $(document).ready(function() {
     }
     
     var flipbook = $("#flipbook");
-                  
-//     $.stratus({
-//         links: '://soundcloud.com/room1011/aphex-twins-pacman-powerpill'
-//     });
-    
-//     flipbook.turn({
-//         width: 1000,
-//         height: 707.5,
-//         elevation: 50,
-//         gradients: true,
-//         autoCenter: true,
-//         acceleration: true,
-//         display: "double"
-//     });
-    
+
     $('[data-toggle="tooltip"]').tooltip();
-    
+
     $('#culture_article_1').click(function() {
         console.log('click');
     });
     
     var x = new pager(flipbook);
+});ight: 707.5,
+        elevation: 50,
+        gradients: true,
+        autoCenter: true,
+        acceleration: true,
+        display: "double"
+    });
+
+>>>>>>> 6b39322fbad5fe3918fced9f73deb4f41bd386b2
+    $('[data-toggle="tooltip"]').tooltip();
+
+    $('#culture_article_1').click(function() {
+<<<<<<< HEAD
+        console.log('click');
+    });
+    
+    var x = new pager(flipbook);
+=======
+        $('#flipbook').turn('page', '3');
+    });
+
+    $('.flip-container').bind('touchstart', function() {
+        $(this).addClass('hover');
+    }).bind('touchend', function() {
+        $(this).removeClass('hover');
+    });
+
+>>>>>>> 6b39322fbad5fe3918fced9f73deb4f41bd386b2
 });
